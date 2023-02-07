@@ -22,4 +22,5 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    	- uses: konradpabjan/actions-add-new-issue-to-column@v1.1
+    - name: Triage pull requests
+      uses: konradpabjan/actions-add-new-issue-to-column@v1.1
