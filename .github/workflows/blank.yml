@@ -7,4 +7,4 @@ jobs:
   test:
     uses: konradpabjan/reusable-workflow-test/.github/workflows/blank.yml@main
     secrets:
-      envPAT: ${{ secrets.MY_SECRET }}
+      MY_SECRET: ${{ secrets.MY_SECRET }}
