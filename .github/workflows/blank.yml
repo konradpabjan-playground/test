@@ -5,7 +5,7 @@ on:
 
 jobs:
   first:
-    uses: konradPabjan/reusable-workflow-test/.github/workflows/blank.yml@main
+    uses: konradpabjan/reusable-workflow-test/.github/workflows/blank.yml@main
     secrets:
       MY_SECRET: ${{ secrets.MY_SECRET }}
   second:
