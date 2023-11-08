@@ -7,9 +7,11 @@ on:
 
 jobs:
   first:
+    uses: ./.github/workflows/internal.yml
+  second:
     uses: konradpabjan-playground/reusable2/.github/workflows/second.yml@main
     secrets: inherit
-  second:
+  third:
     uses: konradPabjan-playground/reusable2/.github/workflows/third.yml@main
     secrets: 
       MY_SECRET3: ${{ secrets.MY_SECRET3 }}
