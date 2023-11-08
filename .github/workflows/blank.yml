@@ -8,5 +8,5 @@ jobs:
     uses: konradpabjan-playground/reusable2/.github/workflows/second.yml@main
     secrets: inherit
   second:
-    uses: konradpabjan-playground/reusable2/.github/workflows/third.yml@main
+    uses: konradPabjan-playground/reusable2/.github/workflows/third.yml@main
     secrets: inherit
