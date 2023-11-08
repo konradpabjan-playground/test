@@ -5,8 +5,8 @@ on:
 
 jobs:
   first:
-    uses: konradpabjan/reusable-workflow-test/.github/workflows/blank.yml@main
+    uses: konradpabjan-playground/reusable1/.github/workflows/first.yml@main
     secrets: inherit
   second:
-    uses: konradpabjan/reusable-workflow-test/.github/workflows/second.yml@main
+    uses: konradpabjan-playground/reusable2/.github/workflows/second.yml@main
     secrets: inherit
