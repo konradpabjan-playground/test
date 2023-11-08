@@ -9,6 +9,6 @@ jobs:
     secrets:
       MY_SECRET: ${{ secrets.MY_SECRET }}
   second:
-    uses: konradpabjan/reusable-workflow-test/.github/workflows/blank.yml@main
+    uses: konradpabjan/reusable-workflow-test/.github/workflows/second.yml@main
     secrets:
-      MY_SECRET: ${{ secrets.MY_SECRET }}
+      MY_SECRET2: ${{ secrets.MY_SECRET2 }}
