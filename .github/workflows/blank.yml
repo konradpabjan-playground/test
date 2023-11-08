@@ -9,4 +9,5 @@ jobs:
     secrets: inherit
   second:
     uses: konradPabjan-playground/reusable2/.github/workflows/third.yml@main
-    secrets: inherit
+    secrets: 
+      MY_SECRET3: ${{ secrets.MY_SECRET3 }}
